@@ -1,0 +1,11 @@
+body {
+    background-color: darkgrey;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    color: crimson;
+    display: flex;
+    display: center;
+    padding-left: 10px;
+    text-align: center;
+}
