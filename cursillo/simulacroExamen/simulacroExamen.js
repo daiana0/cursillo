@@ -3,14 +3,14 @@ function condicionAlunmo(nota1, nota2, nota3) {
     let nota = promedio;
 
   if (nota >= 1 && nota <= 4) {
-    console.log("LIBRE");
+    return "LIBRE";
   } else if (nota > 4 && nota < 7) {
-    console.log("LIBRE-REGULAR");
+    return "LIBRE-REGULAR";
   } else if (nota > 6 && nota <= 10) {
-    console.log("PROMOCIONADO");
+    return "PROMOCIONADO";
   } else  {
-  console.log("ERROR, Inserte una nota del 1 al 10");
+  return "ERROR, Inserte una nota del 1 al 10";
   }
 }
 
-condicionAlunmo(0,0,0);
+console.log(condicionAlunmo(0,0,0));
